@@ -20,7 +20,7 @@ public class Application {
 
     @Bean
     DispatcherServlet dispatcherServlet(){
-        return new DispatcherServlet();
+        return new DispatcherServlet()
     }
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
